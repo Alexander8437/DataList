@@ -1,0 +1,164 @@
+.addEvent {
+  border: 1px solid black;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.addEvent .eventBar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-left: 0px;
+}
+
+.assignHead {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 5px;
+}
+
+.assignCoordinate {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 50%;
+}
+.assignCoordinate select {
+  padding: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid black;
+}
+
+.assignCoordinateHead {
+  display: flex;
+  flex-direction: column;
+  min-width: max-content;
+  gap: 5px;
+}
+
+.assignCoordinateHead .eventDate {
+  border: 1px solid black;
+  padding: 2px 4px;
+  font-size: small;
+  display: flex;
+  justify-content: space-between;
+}
+.eventDate input {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.eventDate input:focus {
+  border: 1px solid black;
+  outline: none;
+}
+
+.assignCoordinateHead .eventVenue {
+  border: 1px solid black;
+  padding: 3px 6px;
+  font-size: small;
+}
+
+.addEvent h1 {
+  text-align: start;
+}
+
+.eventBar ul {
+  display: flex;
+  list-style-type: none;
+  font-size: small;
+  min-width: fit-content;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-left: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.eventBar ul li {
+  border-right: 1px solid black;
+  border-spacing: 0;
+  padding: 2px 8px;
+}
+
+.eventBar ul li:last-child {
+  border-right: none;
+}
+
+.eventBar ul li:hover {
+  background-color: blanchedalmond;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.addEvent h4 {
+  margin-top: 10px;
+}
+
+.meetingHero {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.meetingList {
+  width: 200px;
+  height: 100%;
+}
+
+.meetingList ul {
+  list-style-type: none;
+  margin-left: 0px;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.meetingList ul li {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  height: 30px;
+}
+.meetingList ul li:hover {
+  background-color: violet;
+  cursor: pointer;
+}
+.meetingHero div table {
+  overflow: hidden;
+  border-spacing: 0;
+  outline: thin;
+}
+.addEvent .eventSubmit {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.addEvent .eventSubmit button {
+  background-color: violet;
+  cursor: pointer;
+  border: 1px solid black;
+  width: 120px;
+  padding: 7px 15px;
+  border-radius: 4px;
+}
+
+.meetingHero div table tbody tr td select {
+  padding: 4px;
+  background-color: transparent;
+  border: 1px solid black;
+  outline: none;
+  cursor: pointer;
+}

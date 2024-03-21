@@ -1,0 +1,67 @@
+table {
+  border-collapse: collapse;
+  min-width: max-content;
+}
+thead tbody {
+  overflow-y: hidden;
+  min-width: max-content;
+}
+
+tbody {
+  border-left: none;
+}
+
+.eventName {
+  position: sticky;
+  left: 0;
+  width: 200px;
+  background-color: rgb(128, 128, 128, 0.95);
+  border-left: none;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 5px 30px;
+  text-align: left;
+}
+
+.tableBody td:last-child,
+th:last-child {
+  border-right: none;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  position: sticky;
+  left: 0;
+  right: 0;
+}
+
+.page-num,
+.page-num:hover,
+.page-num:focus {
+  cursor: pointer;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 3px;
+  display: flex;
+}
+
+.active {
+  background-color: #4caf50;
+  color: #fff;
+  border-color: #4caf50;
+}
+
+.active:hover,
+.active:focus {
+  background-color: #45a049;
+  border-color: #45a049;
+  cursor: pointer;
+}
