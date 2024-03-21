@@ -9,8 +9,8 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: start;
+  justify-content: flex-start;
+  align-items: flex-start;
   margin-left: 0px;
 }
 
