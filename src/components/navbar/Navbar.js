@@ -2,13 +2,14 @@ import React from 'react';
 import { GoBell } from "react-icons/go";
 import './navbar.css'
 import { Link } from 'react-router-dom';
+import img from "../../image/profile.jpg"
 
 const Navbar = () => {
 
   const profile =
   {
     name: "Alexander Dung",
-    img: "https://images.pexels.com/photos/289923/pexels-photo-289923.jpeg?auto=compress&cs=tinysrgb&w=600"
+    image: img
   }
 
   return (
@@ -31,7 +32,7 @@ const Navbar = () => {
           </div>
         </li>
         <li style={{ marginRight: 20 }}>
-          <img src={profile.img} className='profileImage' />
+          <img src={profile.image} className='profileImage' />
         </li>
       </ul>
     </nav>
