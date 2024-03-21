@@ -32,7 +32,7 @@ const Navbar = () => {
           </div>
         </li>
         <li style={{ marginRight: 20 }}>
-          <img src={profile.image} className='profileImage' />
+          <img src={profile.image} className='profileImage' alt='profile' />
         </li>
       </ul>
     </nav>
